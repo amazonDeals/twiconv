@@ -2982,7 +2982,7 @@ html.no-csstransitions .featured {
 
 @media only screen and (max-width:1140px) {
    .masonry-wrap {
-      width: 1020px;
+      width: 1080px;
    }
 
    .masonry .grid-sizer, .masonry .masonry__brick {
@@ -2997,7 +2997,7 @@ html.no-csstransitions .featured {
    }
 
    .masonry .grid-sizer, .masonry .masonry__brick {
-      width: 320px; /*width: 370px;*/
+      width: 300px; /*width: 370px;*/
    }
 
 }
@@ -3009,7 +3009,7 @@ html.no-csstransitions .featured {
    }
 
    .masonry .grid-sizer, .masonry .masonry__brick {
-      width: 370px; /*width: 50%;*/
+      width: 380px; /*width: 50%;*/
       /*padding: 0 15px;*/
    }
 
@@ -3021,7 +3021,7 @@ html.no-csstransitions .featured {
    }
 
    .masonry .grid-sizer, .masonry .masonry__brick {
-      width: 340px; /*width: 100%;*/
+      width: 320px; /*width: 100%;*/
       /*clear: both;*/
    }
 
