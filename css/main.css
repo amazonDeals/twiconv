@@ -3007,8 +3007,8 @@ html.no-csstransitions .featured {
    }
 
 }
-/*
-@media only screen and (max-width:800px) {
+
+/*@media only screen and (max-width:800px) {
    .masonry-wrap {
       max-width: 700px;
       width: 90%;
@@ -3016,6 +3016,19 @@ html.no-csstransitions .featured {
 
    .masonry .grid-sizer, .masonry .masonry__brick {
       width: 50%;
+      padding: 0 15px;
+   }
+
+}*/
+
+@media only screen and (max-width:800px) {
+   .masonry-wrap {
+      max-width: 780px;
+      /*width: 90%;*/
+   }
+
+   .masonry .grid-sizer, .masonry .masonry__brick {
+      width: 45%;
       padding: 0 15px;
    }
 
@@ -3032,7 +3045,7 @@ html.no-csstransitions .featured {
    }
 
 }
-*/
+
 /*
 @media only screen and (max-width:600px) {
    .masonry-wrap {
