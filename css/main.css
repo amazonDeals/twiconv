@@ -3007,7 +3007,7 @@ html.no-csstransitions .featured {
    }
 
 }
-
+/*
 @media only screen and (max-width:800px) {
    .masonry-wrap {
       max-width: 700px;
@@ -3032,7 +3032,7 @@ html.no-csstransitions .featured {
    }
 
 }
-
+*/
 /*
 @media only screen and (max-width:600px) {
    .masonry-wrap {
