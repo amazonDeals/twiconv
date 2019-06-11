@@ -2993,11 +2993,11 @@ html.no-csstransitions .featured {
 
 @media only screen and (max-width:1060px) {
    .masonry-wrap {
-      width: 740px;
+      width: 1020px; /*width: 740px;*/
    }
 
    .masonry .grid-sizer, .masonry .masonry__brick {
-      width: 370px;
+      width: 320px; /*width: 370px;*/
    }
 
 }
