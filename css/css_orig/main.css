@@ -2986,31 +2986,31 @@ html.no-csstransitions .featured {
    }
 
    .masonry .grid-sizer, .masonry .masonry__brick {
-      width: 30%; /*width: 340px;*/
+      width: 340px;
    }
 
 }
 
 @media only screen and (max-width:1060px) {
    .masonry-wrap {
-      width: 98%; /*width: 740px;*/
+      width: 740px;
    }
 
    .masonry .grid-sizer, .masonry .masonry__brick {
-      width: 30%; /*width: 370px;*/
+      width: 370px;
    }
 
 }
 
 @media only screen and (max-width:800px) {
    .masonry-wrap {
-      /*max-width: 700px;*/
-      width: 98%; /*width: 90%;*/
+      max-width: 700px;
+      width: 90%;
    }
 
    .masonry .grid-sizer, .masonry .masonry__brick {
-      width: 30%; /*width: 50%;*/
-      /*padding: 0 15px;*/
+      width: 50%;
+      padding: 0 15px;
    }
 
 }
