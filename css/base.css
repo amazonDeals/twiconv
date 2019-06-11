@@ -599,11 +599,12 @@ textarea {
    .hide-on-tablet {
       display: none;
    }
-}
-*/
+}*/
+
 /* ------------------------------------------------------------------- 
  * ## mobile devices
  * ------------------------------------------------------------------- */
+/*
 @media only screen and (max-width: 600px) {
    .row {
       width: auto;
@@ -649,7 +650,7 @@ textarea {
    .hide-on-mobile {
       display: none;
    }
-}
+}*/
 
 /* ------------------------------------------------------------------- 
  * ## small mobile devices
