@@ -2991,7 +2991,7 @@ html.no-csstransitions .featured {
 
 }
 
-@media only screen and (max-width:1060px) {
+/*@media only screen and (max-width:1060px) {
    .masonry-wrap {
       width: 740px;
    }
@@ -3000,7 +3000,7 @@ html.no-csstransitions .featured {
       width: 370px;
    }
 
-}
+}*/
 
 @media only screen and (max-width:800px) {
    .masonry-wrap {
