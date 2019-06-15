@@ -35,6 +35,35 @@
     -webkit-filter: blur(0);
     filter: blur(0);
 }
+.yy_title {
+    padding: 0.4em 0.5em; /* 文字の上下 左右の余白 */
+    color: #494949; /* 文字色 */
+    /* background: #f4f4f4; */ /* 背景色 */
+    border-left: solid 5px #7db4e6; /* 左線 */
+    border-bottom: solid 3px #d7d7d7; /* 下線 */
+}
+.yy_marker {
+    border-left: solid 7px #101010; /* 左の縦線 */
+}
+.tw_user {
+    position: relative;
+    color: #333;
+    text-shadow: 0 0 2px white;
+}
+.tw_user:before {
+    content: "";
+    position: absolute;
+    background: #9de5ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 50%;
+    /* border: dashed 1px white; */
+    left: -15px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: -1;
+}
 </style>
 <body id="top">
     <!-- pageheader    ================================================== -->
@@ -109,8 +138,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@horiris</u></b><br>
-                        坪井アナ、「消費税は上がり続ける。もっと言うと、先日、戦争発言をした国会議員（丸山穂高）、責任も取らずに２カ月間休んで、この間も彼の給料・ボーナス何百万円という額が税金から払われる。それでも私たちは一生懸命働いて、国民は税金を納めているんですよ」<br>
+                        <span class="tw_user">@horiris</span><br>
+                        <span class="yy_marker">坪井アナ、「消費税は上がり続ける。もっと言うと、先日、戦争発言をした国会議員（丸山穂高）、責任も取らずに２カ月間休んで、この間も彼の給料・ボーナス何百万円という額が税金から払われる。それでも私たちは一生懸命働いて、国民は税金を納めているんですよ」</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -132,8 +161,8 @@
                             <img sidth="100%" src="https://pbs.twimg.com/media/D8iargjV4AUeSzj?format=jpg&name=360x360">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@nigatsu_</u></b><br>
-                        今日買ってきた多肉。<br><br>なんかこう、<br>｢いぇーい！｣って感じが好き。<br>
+                        <span class="tw_user">@nigatsu_</span><br>
+                        <span class="yy_marker">今日買ってきた多肉。<br><br>なんかこう、<br>｢いぇーい！｣って感じが好き。</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -154,8 +183,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@tibarin1</u></b><br>
-                        妊娠後に初めて高速道路乗ったら、しばらくして急に胸がドキドキして息苦しくなり、10分先のPAまで我慢できずに1キロ先の出口で降りてしまった。<br>これ絶対、前に電車でなったことがあるパニック発作！<br>妊娠中はホルモンバランスでパニック起こしやすいみたい。<br>薬飲めないのに新たなトラブルもういや<br>
+                        <span class="tw_user">@tibarin1</span><br>
+                        <span class="yy_marker">妊娠後に初めて高速道路乗ったら、しばらくして急に胸がドキドキして息苦しくなり、10分先のPAまで我慢できずに1キロ先の出口で降りてしまった。<br>これ絶対、前に電車でなったことがあるパニック発作！<br>妊娠中はホルモンバランスでパニック起こしやすいみたい。<br>薬飲めないのに新たなトラブルもういや</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -177,8 +206,8 @@
                             <img sidth="100%" src="https://pbs.twimg.com/media/D8Rr8F7UIAAgFcu?format=jpg&name=360x360">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@kubotakazunobu</u></b><br>
-                        同期の残された男達は老人ホームに入る為には3千万あれば安心だという話を楽屋ではじめた<br>
+                        <span class="tw_user">@kubotakazunobu</span><br>
+                        <span class="yy_marker">同期の残された男達は老人ホームに入る為には3千万あれば安心だという話を楽屋ではじめた</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -199,8 +228,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@SumiAki0922</u></b><br>
-                        迎えにいくときにネズミ取りの横を通って、にしび祭りの行きにパトカーに追跡され、送った帰りに飲酒の検問に会いました<br>もうおまわりさん俺のこと好きやん<br>
+                        <span class="tw_user">@SumiAki0922</span><br>
+                        <span class="yy_marker">迎えにいくときにネズミ取りの横を通って、にしび祭りの行きにパトカーに追跡され、送った帰りに飲酒の検問に会いました<br>もうおまわりさん俺のこと好きやん</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -221,8 +250,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@bokuhadokoniiru</u></b><br>
-                        厚労省の本音「生活保護で大学進学なんてゼイタク」<br><br>厚労省の天下り先を全部潰すくらい努力した後でホザけ<br>少子高齢化なのに加計学園や東京福祉大といった無駄な大学が多い。全部厚労省や自民党関係者の天下り先だろう。<br><br>大体、給与が低すぎるんだ。<br>低賃金すぎる！<br>
+                        <span class="tw_user">@bokuhadokoniiru</span><br>
+                        <span class="yy_marker">厚労省の本音「生活保護で大学進学なんてゼイタク」<br><br>厚労省の天下り先を全部潰すくらい努力した後でホザけ<br>少子高齢化なのに加計学園や東京福祉大といった無駄な大学が多い。全部厚労省や自民党関係者の天下り先だろう。<br><br>大体、給与が低すぎるんだ。<br>低賃金すぎる！</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -244,8 +273,8 @@
                             <img sidth="100%" src="https://pbs.twimg.com/media/D0eHFgRU8AAWdK6?format=jpg&name=360x360">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@expressbusfun</u></b><br>
-                        緑が丘站から北播磨総合医療センターまで高速道路経由便が有るのか？そんなに遠いの？？<br>
+                        <span class="tw_user">@expressbusfun</span><br>
+                        <span class="yy_marker">緑が丘站から北播磨総合医療センターまで高速道路経由便が有るのか？そんなに遠いの？？</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -266,8 +295,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@ppsh41_1945</u></b><br>
-                        外国人実習生「労働内容があまりに酷い。逃げて再就職先を探そう」<br><br>入管「逃げた外国人を一網打尽にしたい。人材派遣会社にわざと逃げた彼らを雇って不法就労状態を作るように要請しよう」<br><br>派遣会社社長「入管の要請通りにしたら逮捕されました」<br><br>うわぁ…、酷いなこれ。<br>
+                        <span class="tw_user">@ppsh41_1945</span><br>
+                        <span class="yy_marker">外国人実習生「労働内容があまりに酷い。逃げて再就職先を探そう」<br><br>入管「逃げた外国人を一網打尽にしたい。人材派遣会社にわざと逃げた彼らを雇って不法就労状態を作るように要請しよう」<br><br>派遣会社社長「入管の要請通りにしたら逮捕されました」<br><br>うわぁ…、酷いなこれ。</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -289,8 +318,8 @@
                             <img sidth="100%" src="https://pbs.twimg.com/media/D8qtGWEU0AATcQT?format=jpg&name=360x360">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@asatuyu0604</u></b><br>
-                        手取り30万が低所得扱いされてる事に衝撃を受けたと同時に、こんな考えの人達の年金に余裕で手取り30万以下の若者の金が吸い取られてるのかと思うとやるせなさが凄い<br>
+                        <span class="tw_user">@asatuyu0604</span><br>
+                        <span class="yy_marker">手取り30万が低所得扱いされてる事に衝撃を受けたと同時に、こんな考えの人達の年金に余裕で手取り30万以下の若者の金が吸い取られてるのかと思うとやるせなさが凄い</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -311,8 +340,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@kensho27m</u></b><br>
-                        横浜地裁なう<br>
+                        <span class="tw_user">@kensho27m</span><br>
+                        <span class="yy_marker">横浜地裁なう</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -333,8 +362,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@YahooNewsTopics</u></b><br>
-                        【医学部不正入試 3大学を提訴】<br>(link: https://yahoo.jp/JHr-fM) yahoo.jp/JHr-fM<br><br>東京医科大、昭和大、順天堂大の医学部不正入試問題を巡り、元受験生の女性が3大学側に慰謝料など計約3600万円の損害賠償を求めて東京地裁に提訴。各大学に合格していたが、性別などを理由に不合格にされた。<br>
+                        <span class="tw_user">@YahooNewsTopics</span><br>
+                        <span class="yy_marker">【医学部不正入試 3大学を提訴】<br>(link: https://yahoo.jp/JHr-fM) yahoo.jp/JHr-fM<br><br>東京医科大、昭和大、順天堂大の医学部不正入試問題を巡り、元受験生の女性が3大学側に慰謝料など計約3600万円の損害賠償を求めて東京地裁に提訴。各大学に合格していたが、性別などを理由に不合格にされた。</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -355,8 +384,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@ipropera00777</u></b><br>
-                        アスベストの健康被害で死亡した労働者の遺族が、労災記録が開示されないのは不当として国を訴えた裁判で、大阪地裁は不開示は違法と判断した。判決によると、兵庫県尼崎市のアスベスト関連工場で働き、中皮腫で死亡した男性2人の息子らは去年、裁判を通じた和解で賠償を受けられる可能性があるとの<br>
+                        <span class="tw_user">@ipropera00777</span><br>
+                        <span class="yy_marker">アスベストの健康被害で死亡した労働者の遺族が、労災記録が開示されないのは不当として国を訴えた裁判で、大阪地裁は不開示は違法と判断した。判決によると、兵庫県尼崎市のアスベスト関連工場で働き、中皮腫で死亡した男性2人の息子らは去年、裁判を通じた和解で賠償を受けられる可能性があるとの</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -377,8 +406,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@y_fujiko</u></b><br>
-                        園児4人にわいせつ行為　元保育士の男に懲役9年判決　名古屋地裁岡崎支部（メ〜テレ（名古屋テレビ）） - Y!ニュース<br>
+                        <span class="tw_user">@y_fujiko</span><br>
+                        <span class="yy_marker">園児4人にわいせつ行為　元保育士の男に懲役9年判決　名古屋地裁岡崎支部（メ〜テレ（名古屋テレビ）） - Y!ニュース</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -400,8 +429,8 @@
                             <img sidth="100%" src="https://pbs.twimg.com/media/D8rBQT9UwAIMNtW?format=jpg&name=360x360">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@livedoornews</u></b><br>
-                        【家に投函】「園児を騒がせるな」と脅迫文、71歳男逮捕 足立区<br>(link: http://news.livedoor.com/article/detail/16595659/) news.livedoor.com/article/detail…<br><br>朝バスを待つ子どもの声に腹を立て「騒がせるな。できなければ何があっても文句を言うな」などと脅した疑いが持たれている。<br>
+                        <span class="tw_user">@livedoornews</span><br>
+                        <span class="yy_marker">【家に投函】「園児を騒がせるな」と脅迫文、71歳男逮捕 足立区<br>(link: http://news.livedoor.com/article/detail/16595659/) news.livedoor.com/article/detail…<br><br>朝バスを待つ子どもの声に腹を立て「騒がせるな。できなければ何があっても文句を言うな」などと脅した疑いが持たれている。</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -422,8 +451,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@subwayparty12</u></b><br>
-                        暴行犯がなぜ不起訴になったのか、っていう疑問から<br>「加藤さんの父親が経営する新宣は新潟県警のスポンサーだ。県警は新宣に逆らえない」<br>「加藤さんの父親が娘を守るために暴行犯を不起訴にしたんだ」<br>ってどんどん陰謀論が膨らんでましたね<br>
+                        <span class="tw_user">@subwayparty12</span><br>
+                        <span class="yy_marker">暴行犯がなぜ不起訴になったのか、っていう疑問から<br>「加藤さんの父親が経営する新宣は新潟県警のスポンサーだ。県警は新宣に逆らえない」<br>「加藤さんの父親が娘を守るために暴行犯を不起訴にしたんだ」<br>ってどんどん陰謀論が膨らんでましたね</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -444,8 +473,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@3SC5vunUPhy5Env</u></b><br>
-                        モーニングショー<br>「老後資金2000万円必要」<br><br>玉川徹氏「年金はだけでは足りないと今になって言う。100年安心といったのは2004年。正直に言ったら選挙に落ちてしまうから。<br>自己責任政権ここに極まれり。投資で失敗したらあなたのせい。運用は慎重に積立金は無駄には使いませんというのが誠実な政府」<br>
+                        <span class="tw_user">@3SC5vunUPhy5Env</span><br>
+                        <span class="yy_marker">モーニングショー<br>「老後資金2000万円必要」<br><br>玉川徹氏「年金はだけでは足りないと今になって言う。100年安心といったのは2004年。正直に言ったら選挙に落ちてしまうから。<br>自己責任政権ここに極まれり。投資で失敗したらあなたのせい。運用は慎重に積立金は無駄には使いませんというのが誠実な政府」</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -467,8 +496,8 @@
                             <img sidth="100%" src="https://pbs.twimg.com/media/D8f9dd5VUAEaeCo?format=jpg&name=360x360">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@suzuryo_trb</u></b><br>
-                        茨城県警管内では自転車で車道を逆走しても良いらしい<br>
+                        <span class="tw_user">@suzuryo_trb</span><br>
+                        <span class="yy_marker">茨城県警管内では自転車で車道を逆走しても良いらしい</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -489,8 +518,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@churaryucue</u></b><br>
-                        愚痴です…<br>毎日毎日、義母のために神経をすり減らしている夫を見るのがとてもツライ<br>義母は何も自分ではできない（やらない？）のに<br>月に一度しか来ないケアマネは「全然認知症じゃないですよ」なんて言って何も相談乗ってくれないし<br>まだ72歳。あと20年くらいこんな生活が続くのかな……<br>
+                        <span class="tw_user">@churaryucue</span><br>
+                        <span class="yy_marker">愚痴です…<br>毎日毎日、義母のために神経をすり減らしている夫を見るのがとてもツライ<br>義母は何も自分ではできない（やらない？）のに<br>月に一度しか来ないケアマネは「全然認知症じゃないですよ」なんて言って何も相談乗ってくれないし<br>まだ72歳。あと20年くらいこんな生活が続くのかな……</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -511,8 +540,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@Sankei_news</u></b><br>
-                        市道を１４５キロで走行　元巡査に有罪　千葉地裁<br>(link: https://www.sankei.com/affairs/news/190603/afr1906030020-n1.html) sankei.com/affairs/news/1…<br><br>　→千葉市の市道で法定速度を85キロ上回る時速約145キロでスポーツカーを運転したとして道交法違反（速度超過）の罪に問われた千葉県警千葉中央署の地域課元巡査に、懲役5月、執行猶予2年（求刑懲役5月）の判決を言い渡した<br>
+                        <span class="tw_user">@Sankei_news</span><br>
+                        <span class="yy_marker">市道を１４５キロで走行　元巡査に有罪　千葉地裁<br>(link: https://www.sankei.com/affairs/news/190603/afr1906030020-n1.html) sankei.com/affairs/news/1…<br><br>　→千葉市の市道で法定速度を85キロ上回る時速約145キロでスポーツカーを運転したとして道交法違反（速度超過）の罪に問われた千葉県警千葉中央署の地域課元巡査に、懲役5月、執行猶予2年（求刑懲役5月）の判決を言い渡した</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -533,8 +562,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@398_h</u></b><br>
-                        お風呂で洗われて嫌だったことを、洗った張本人に訴えているﾈｺﾁｬﾝです。<br>
+                        <span class="tw_user">@398_h</span><br>
+                        <span class="yy_marker">お風呂で洗われて嫌だったことを、洗った張本人に訴えているﾈｺﾁｬﾝです。</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -555,8 +584,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@greatflam1</u></b><br>
-                        #飲酒運転　#酒　#炎上　#大炎上　#迷惑 <br><br>みんなで考えてみよう。<br><br>心の中で考えた人はRTお願いします。<br><br>#イケメン　の　#自動車　#運転<br>
+                        <span class="tw_user">@greatflam1</span><br>
+                        <span class="yy_marker">#飲酒運転　#酒　#炎上　#大炎上　#迷惑 <br><br>みんなで考えてみよう。<br><br>心の中で考えた人はRTお願いします。<br><br>#イケメン　の　#自動車　#運転</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -577,8 +606,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@chinatsumushi</u></b><br>
-                        昨日夫が「保育園のA先生、最近化粧濃くない？調子乗ってるね笑」と言ってきて絶句。ノーメイクだとマナー違反と言われ、濃い目のメイクだと調子に乗ってるってなるの？そんでそれをジャッジするのは「見る側の性」の男性？ばかばかしいわ。大概にしろ。彼女のメイクにあなたが意見する権利はない。<br>
+                        <span class="tw_user">@chinatsumushi</span><br>
+                        <span class="yy_marker">昨日夫が「保育園のA先生、最近化粧濃くない？調子乗ってるね笑」と言ってきて絶句。ノーメイクだとマナー違反と言われ、濃い目のメイクだと調子に乗ってるってなるの？そんでそれをジャッジするのは「見る側の性」の男性？ばかばかしいわ。大概にしろ。彼女のメイクにあなたが意見する権利はない。</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -599,8 +628,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@iwakamiyasumi</u></b><br>
-                        公選法違反で刑事告発すべきではないか。放置すれば、自民党はこうした悪質なキャンペーンを繰り返してくる。→人気女性モデルと自民党のコラボ広告で公選法違反か　「ViVi」の政党ロゴ付きTシャツプレゼントが波紋 (1/3) 〈dot.〉｜AERA dot. (アエラドット)<br>
+                        <span class="tw_user">@iwakamiyasumi</span><br>
+                        <span class="yy_marker">公選法違反で刑事告発すべきではないか。放置すれば、自民党はこうした悪質なキャンペーンを繰り返してくる。→人気女性モデルと自民党のコラボ広告で公選法違反か　「ViVi」の政党ロゴ付きTシャツプレゼントが波紋 (1/3) 〈dot.〉｜AERA dot. (アエラドット)</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -621,8 +650,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@UN_NERV</u></b><br>
-                        第三者委員会によりますと、吹田市の小学校に通う女子児童は１年生だった平成27年の秋ごろからおよそ１年半にわたり、５人の同級生らから暴行や暴言、嫌がらせなどのいじめを繰り返し受けたということです。<br>
+                        <span class="tw_user">@UN_NERV</span><br>
+                        <span class="yy_marker">第三者委員会によりますと、吹田市の小学校に通う女子児童は１年生だった平成27年の秋ごろからおよそ１年半にわたり、５人の同級生らから暴行や暴言、嫌がらせなどのいじめを繰り返し受けたということです。</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -643,8 +672,8 @@
                         <div class="entry__info">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@zuboc</u></b><br>
-                        金融庁の『老後に２０００万不足しますよ？』は、『NISAが人気なくて売れないから、なんとかして老後のためのタンス預金を投資に回るようにしてちょうだい』という証券業界からのリクエストにうっかり答えたら大炎上したバイトテロと同レベルの馬鹿案件だと思うの。<br>
+                        <span class="tw_user">@zuboc</span><br>
+                        <span class="yy_marker">金融庁の『老後に２０００万不足しますよ？』は、『NISAが人気なくて売れないから、なんとかして老後のためのタンス預金を投資に回るようにしてちょうだい』という証券業界からのリクエストにうっかり答えたら大炎上したバイトテロと同レベルの馬鹿案件だと思うの。</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">
@@ -666,8 +695,8 @@
                             <img sidth="100%" src="https://pbs.twimg.com/media/D8-hdVXU0AAF5WD?format=jpg&name=360x360">
                         </div>
                         <div class="entry__excerpt">
-                        <b><u>@FIFI_Egypt</u></b><br>
-                         大阪府吹田市の小学校で、女児が約1年半にわたって同級生の男児からいじめを受けていた問題で…両親は市教委に第三者委員会の設置を求めていたが、約4カ月間にわたって放置されていたとのこと<br>府警が児相に通告したことも両親に知らされず、市教委の対応の遅さが浮き彫りに<br>(link: https://mainichi.jp/articles/20190614/k00/00m/040/014000c) mainichi.jp/articles/20190…<br>
+                        <span class="tw_user">@FIFI_Egypt</span><br>
+                        <span class="yy_marker"> 大阪府吹田市の小学校で、女児が約1年半にわたって同級生の男児からいじめを受けていた問題で…両親は市教委に第三者委員会の設置を求めていたが、約4カ月間にわたって放置されていたとのこと<br>府警が児相に通告したことも両親に知らされず、市教委の対応の遅さが浮き彫りに<br>(link: https://mainichi.jp/articles/20190614/k00/00m/040/014000c) mainichi.jp/articles/20190…</span>
                         </div>
                         <div class="entry__meta">
                             <span class="entry__meta-links">

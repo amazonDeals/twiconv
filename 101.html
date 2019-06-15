@@ -35,6 +35,35 @@
     -webkit-filter: blur(0);
     filter: blur(0);
 }
+.yy_title {
+    padding: 0.4em 0.5em; /* 文字の上下 左右の余白 */
+    color: #494949; /* 文字色 */
+    /* background: #f4f4f4; */ /* 背景色 */
+    border-left: solid 5px #7db4e6; /* 左線 */
+    border-bottom: solid 3px #d7d7d7; /* 下線 */
+}
+.yy_marker {
+    border-left: solid 7px #101010; /* 左の縦線 */
+}
+.tw_user {
+    position: relative;
+    color: #333;
+    text-shadow: 0 0 2px white;
+}
+.tw_user:before {
+    content: "";
+    position: absolute;
+    background: #9de5ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 50%;
+    /* border: dashed 1px white; */
+    left: -15px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: -1;
+}
 </style>
 <body id="top">
     <!-- pageheader
@@ -110,60 +139,60 @@
                         </div>
                         <div class="entry__info">
                             <img width="100%" src="https://pbs.twimg.com/media/D8iargjV4AUeSzj?format=jpg&name=360x360">
-                        <b><u>@nigatsu_</u></b><br>
+                        <span class="tw_user">@nigatsu_</span><br>
                         今日買ってきた多肉。<br><br>なんかこう、<br>｢いぇーい！｣って感じが好き。<br><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@string_of_star</u></b><br>
-                        可愛い姿に元気もらえますね(*´∀｀*)<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">可愛い姿に元気もらえますね(*´∀｀*)</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@nigatsu_</u></b><br>
-                        他にも、もりもりかわゆいのとか、ナチュラルな感じのとかがあったんですが、どーにもこーにも、これが気になりまして。<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">他にも、もりもりかわゆいのとか、ナチュラルな感じのとかがあったんですが、どーにもこーにも、これが気になりまして。</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@string_of_star</u></b><br>
-                        なんとなくですが、あのドームでハロソンの時に力いっぱいジャンプした星野さん思い出します…(重症)<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">なんとなくですが、あのドームでハロソンの時に力いっぱいジャンプした星野さん思い出します…(重症)</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@nigatsu_</u></b><br>
-                        力いっぱいな感じがいいですよねー<br>星野さんみたいな、いい子に育ちますよーに！<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">力いっぱいな感じがいいですよねー<br>星野さんみたいな、いい子に育ちますよーに！</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@string_of_star</u></b><br>
-                        のびのび育て～( ´ω&#x60; )/<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">のびのび育て～( ´ω&#x60; )/</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@sanerihaha1</u></b><br>
-                        私もこういうの好きです<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">私もこういうの好きです</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@nigatsu_</u></b><br>
-                        明日まで出雲イオンでやってるハンドメイドイベントで買ってきましたよー(*ˊᵕˋ* )<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">明日まで出雲イオンでやってるハンドメイドイベントで買ってきましたよー(*ˊᵕˋ* )</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@mint39405767</u></b><br>
-                        いぇーい<br>元気でた٩(๑•ㅂ•)۶うぇーい<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">いぇーい<br>元気でた٩(๑•ㅂ•)۶うぇーい</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@nigatsu_</u></b><br>
-                        なんか面白いでしょ？<br>下の土台からバーン！て出てるみたいでおかしくて(〃▽〃)<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">なんか面白いでしょ？<br>下の土台からバーン！て出てるみたいでおかしくて(〃▽〃)</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@mint39405767</u></b><br>
-                        うんうんおもしろいね～<br>生命力に溢れてる力強さと可愛らしさのバランスがとてもいいね<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">うんうんおもしろいね～<br>生命力に溢れてる力強さと可愛らしさのバランスがとてもいいね</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@akushonkamen998</u></b><br>
-                        カワイイ♡じゃないか！<br>いぇーい！<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">カワイイ♡じゃないか！<br>いぇーい！</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@nigatsu_</u></b><br>
-                        なんだか見た目に笑ってしまって、買わずにおれなかったよ（笑）<br><br>寄せ植えよりは管理しやすいって教えてもらったから、大事に楽しむ<br>(以前寄せ植えの中身を半分くらいダメにした前科持ち)<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">なんだか見た目に笑ってしまって、買わずにおれなかったよ（笑）<br><br>寄せ植えよりは管理しやすいって教えてもらったから、大事に楽しむ<br>(以前寄せ植えの中身を半分くらいダメにした前科持ち)</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@akushonkamen998</u></b><br>
-                        形が面白いもんねパワーもらえそう！<br>寄せ植えはそれぞれ育て方が違ったりするから全部キレイに育てるのはホント難しい。私は大きくなったらカットして新しく寄せてるよ<br>この子このままで置いときたいぐらいかわいい♡<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">形が面白いもんねパワーもらえそう！<br>寄せ植えはそれぞれ育て方が違ったりするから全部キレイに育てるのはホント難しい。私は大きくなったらカットして新しく寄せてるよ<br>この子このままで置いときたいぐらいかわいい♡</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__meta">
                         </div>
@@ -180,24 +209,24 @@
                         </div>
                         <div class="entry__info">
                             <img width="100%" src="https://pbs.twimg.com/media/D8gv9jTV4AAE-Av?format=jpg&name=360x360">
-                        <b><u>@hahajanome</u></b><br>
+                        <span class="tw_user">@hahajanome</span><br>
                         枯れ姿も 可愛くて.❤︎ <br>      多肉ちゃん ❤︎ ドライフラワー ୭ 𓈒◌<br><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@popoco01</u></b><br>
-                        kazuhaさん、こんにちは〜<br><br>この赤いの多肉ちゃんのお花なんですか？！<br>てか、いつもバックがオシャレでついつい目がそっちにもいくわぁ〜<br>さ、す、が<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">kazuhaさん、こんにちは〜<br><br>この赤いの多肉ちゃんのお花なんですか？！<br>てか、いつもバックがオシャレでついつい目がそっちにもいくわぁ〜<br>さ、す、が</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@hahajanome</u></b><br>
-                        こんばんは〜 popo子さん♪<br>多肉ちゃんのお花なんですよ<br>これ.. どうなんだろう..<br>多肉ちゃん好きだから<br>可愛く思うの 私だけかな..と<br>思いつつ まぁいいっかと ツイ〜°<br>バックは ふぁっと写ってくれたから<br>オシャレっぽくみえて <br>ラッキーショットでした〜<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">こんばんは〜 popo子さん♪<br>多肉ちゃんのお花なんですよ<br>これ.. どうなんだろう..<br>多肉ちゃん好きだから<br>可愛く思うの 私だけかな..と<br>思いつつ まぁいいっかと ツイ〜°<br>バックは ふぁっと写ってくれたから<br>オシャレっぽくみえて <br>ラッキーショットでした〜</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@popoco01</u></b><br>
-                        こんばんは〜<br><br>かわいいよ<br>みたいな形<br>きっと実物は写真よりもっとかわいいのだと感じます<br>kazuhaさん、これはいつものように食べないの？！（笑）<br><br>いやぁ〜どう写ってもで、す、よ<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">こんばんは〜<br><br>かわいいよ<br>みたいな形<br>きっと実物は写真よりもっとかわいいのだと感じます<br>kazuhaさん、これはいつものように食べないの？！（笑）<br><br>いやぁ〜どう写ってもで、す、よ</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@hahajanome</u></b><br>
-                        <br>popo子さんは私の笑うツボを<br>よくご存知で..<br>甘酸っぱくて美味しそうで<br>鉄分も補給できそうだから(笑)<br>つまみそうになりましたけど..<br>我慢我慢<br><br>いつも褒めてくださって<br>ありがとうございます<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker"><br>popo子さんは私の笑うツボを<br>よくご存知で..<br>甘酸っぱくて美味しそうで<br>鉄分も補給できそうだから(笑)<br>つまみそうになりましたけど..<br>我慢我慢<br><br>いつも褒めてくださって<br>ありがとうございます</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__meta">
                         </div>
@@ -216,25 +245,25 @@
                             <img width="100%" src="https://pbs.twimg.com/media/D72LHkuV4AAFQ6c?format=jpg&name=360x360">
                             <img width="100%" src="https://pbs.twimg.com/media/D72LIRwV4AAjsln?format=jpg&name=360x360">
                             <img width="100%" src="https://pbs.twimg.com/media/D72LJbjUEAAkrEQ?format=jpg&name=360x360">
-                        <b><u>@ERxWsTia0x0oz3l</u></b><br>
+                        <span class="tw_user">@ERxWsTia0x0oz3l</span><br>
                         おはようございます<br>今朝の多肉さん。なんか青カビみたいなのが出来てきて、これってもしかして、病気なんかな？<br>一枚目は買ったときのもの<br>#多肉植物<br><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@saa_chan2010000</u></b><br>
-                        ぷくっと腫れてますか？だるま秋麗は、ぷくっと腫れてるのが出てしまうけど<br>遺伝的なものかも…と多肉ショップの方が言ってました。だるま秋麗の血筋ぽいからその可能性もあるかもですが、色味が不安な色ですね<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">ぷくっと腫れてますか？だるま秋麗は、ぷくっと腫れてるのが出てしまうけど<br>遺伝的なものかも…と多肉ショップの方が言ってました。だるま秋麗の血筋ぽいからその可能性もあるかもですが、色味が不安な色ですね</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@ERxWsTia0x0oz3l</u></b><br>
-                        腫れてはなく、餅にカビが生えているみたいな…。<br>寄せ植えしてるので、ちょっと別に植えかえしてみます<br>ありがとうございました<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">腫れてはなく、餅にカビが生えているみたいな…。<br>寄せ植えしてるので、ちょっと別に植えかえしてみます<br>ありがとうございました</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@saa_chan2010000</u></b><br>
-                        腫れてないんですね病気かもしれないですね夏に弱いと聞いてるので避難させた方がいいかもしれませんね我が家は日陰で夏越し出来ましたが…。寄せ植え解体しなきゃいけない時期が来ましたね<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">腫れてないんですね病気かもしれないですね夏に弱いと聞いてるので避難させた方がいいかもしれませんね我が家は日陰で夏越し出来ましたが…。寄せ植え解体しなきゃいけない時期が来ましたね</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                             <img width="100%" src="https://pbs.twimg.com/media/D72hzBkVUAAaM2O?format=jpg&name=360x360">
                         <b><u>@ERxWsTia0x0oz3l</u></b><br>
-                        今よ～く見てみたら、青いとこが盛り上がってるとこもあります！これが腫れですかね<br>帰ってから寄せ植え解体作業に入ります！ありがとうございました<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">今よ～く見てみたら、青いとこが盛り上がってるとこもあります！これが腫れですかね<br>帰ってから寄せ植え解体作業に入ります！ありがとうございました</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__meta">
                         </div>
@@ -251,12 +280,12 @@
                         </div>
                         <div class="entry__info">
                             <img width="100%" src="https://pbs.twimg.com/media/D8H9lrXU8AEBjxT?format=jpg&name=360x360">
-                        <b><u>@kensope</u></b><br>
+                        <span class="tw_user">@kensope</span><br>
                         暴れ放題の…<br>名前が思い出せない<br><br> #多肉<br><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@kensope</u></b><br>
-                        「ブロンズ姫」だ！<br><br>こんなポピュラーな名前が、最近、出て来なくなる。。<br><br>名札はやっぱり必要だ！<br><br>                         #多肉<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">「ブロンズ姫」だ！<br><br>こんなポピュラーな名前が、最近、出て来なくなる。。<br><br>名札はやっぱり必要だ！<br><br>                         #多肉</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__meta">
                         </div>
@@ -273,52 +302,52 @@
                         </div>
                         <div class="entry__info">
                             <img width="100%" src="https://pbs.twimg.com/media/D73zwDEUEAElaG_?format=jpg&name=360x360">
-                        <b><u>@hana_cocos1026</u></b><br>
+                        <span class="tw_user">@hana_cocos1026</span><br>
                         ティッピーの葉挿しが可愛い<br><br>#多肉 #ティッピー #葉挿し<br><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@kaorihappymk</u></b><br>
-                        可愛い<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">可愛い</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@hana_cocos1026</u></b><br>
-                        かおりさんこんにちは！<br>可愛い過ぎて思わずパチリしてしまいました！<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">かおりさんこんにちは！<br>可愛い過ぎて思わずパチリしてしまいました！</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@kaorihappymk</u></b><br>
-                        ちっちゃくてもちゃんと爪がピンクなのが可愛いすぎます<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">ちっちゃくてもちゃんと爪がピンクなのが可愛いすぎます</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@hana_cocos1026</u></b><br>
-                        ホントですよね<br>いつもティッピーの葉挿しお爪が可愛いくて写真撮っちゃってます(笑)<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">ホントですよね<br>いつもティッピーの葉挿しお爪が可愛いくて写真撮っちゃってます(笑)</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@banbi0406</u></b><br>
-                        hana☆さんこんばんわぁ<br>めちゃ可愛いですね〜<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">hana☆さんこんばんわぁ<br>めちゃ可愛いですね〜</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@hana_cocos1026</u></b><br>
-                        banbiさんこんにちは！<br>ティッピーの葉挿しっていつも可愛いです<br>ありがとう<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">banbiさんこんにちは！<br>ティッピーの葉挿しっていつも可愛いです<br>ありがとう</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@itsumi0102</u></b><br>
-                        かわいい～っっ(∩˘ω˘∩ )♡しっかり根を張ってますね！！<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">かわいい～っっ(∩˘ω˘∩ )♡しっかり根を張ってますね！！</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@hana_cocos1026</u></b><br>
-                        いつみさんこんにちは<br>お花の土に植わってたから細かい根っこが張ってました！<br>ティッピーって可愛いよね<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">いつみさんこんにちは<br>お花の土に植わってたから細かい根っこが張ってました！<br>ティッピーって可愛いよね</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@snow_dog11</u></b><br>
-                        カワイイです<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">カワイイです</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@hana_cocos1026</u></b><br>
-                        ハナコさんこんにちは<br>可愛いですよね<br>ティッピーは可愛いくて思わず毎回写真撮っちゃいます！<br>ありがとうございます<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">ハナコさんこんにちは<br>可愛いですよね<br>ティッピーは可愛いくて思わず毎回写真撮っちゃいます！<br>ありがとうございます</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@snow_dog11</u></b><br>
-                        こんなに可愛かったら<br>何度でも撮っちゃいますよね<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">こんなに可愛かったら<br>何度でも撮っちゃいますよね</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__meta">
                         </div>
@@ -335,12 +364,12 @@
                         </div>
                         <div class="entry__info">
                             <img width="100%" src="https://pbs.twimg.com/media/D8ZqJnOV4AAcpkA?format=jpg&name=360x360">
-                        <b><u>@otometosake</u></b><br>
+                        <span class="tw_user">@otometosake</span><br>
                         このままだと確実に死ぬ多肉の際発根の処理この半分ぐらいしか出来なかった( ꒪⌓꒪)<br>分頭切り分けたりで増えたし…<br><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@otometosake</u></b><br>
-                        再発根<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">再発根</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__meta">
                         </div>
@@ -359,24 +388,24 @@
                             <img width="100%" src="https://pbs.twimg.com/media/D8dFJ8tUcAIDhBo?format=jpg&name=360x360">
                             <img width="100%" src="https://pbs.twimg.com/media/D8dFKKKU8AEbQeq?format=jpg&name=360x360">
                             <img width="100%" src="https://pbs.twimg.com/media/D8dFKXfUcAA6HYL?format=jpg&name=360x360">
-                        <b><u>@natsuhiro_tnk</u></b><br>
+                        <span class="tw_user">@natsuhiro_tnk</span><br>
                         室内に入れたついでに多肉たちを眺めてます<br>マッコスはいたる所から花芽が出てかなりフリーダムに成長してる<br>#多肉植物 #マッコス<br><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@succulent770</u></b><br>
-                        かわいいかわいいかわいいぷりっぷりですねうちの子もそんな風に育ってほしいです…まだ小苗なので、まずは夏を無事に越してほしいです。<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">かわいいかわいいかわいいぷりっぷりですねうちの子もそんな風に育ってほしいです…まだ小苗なので、まずは夏を無事に越してほしいです。</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@natsuhiro_tnk</u></b><br>
-                        マッコスはうちの中でも特に元気ですね～！ 夏は私も心配なので、弱らせちゃったりしないように気をつけていきたいです 七尾さんちの子も元気に育ちますように<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">マッコスはうちの中でも特に元気ですね～！ 夏は私も心配なので、弱らせちゃったりしないように気をつけていきたいです 七尾さんちの子も元気に育ちますように</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@TQgvT9tkI6XDHkO</u></b><br>
-                        眺めちゃうよねぇ〜<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">眺めちゃうよねぇ〜</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@natsuhiro_tnk</u></b><br>
-                        そうですよね～いくらでも見てられますね<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">そうですよね～いくらでも見てられますね</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__meta">
                         </div>
@@ -393,12 +422,12 @@
                         </div>
                         <div class="entry__info">
                             <img width="100%" src="https://pbs.twimg.com/media/D8iurVlVUAAXfCu?format=jpg&name=360x360">
-                        <b><u>@kirarin_39</u></b><br>
+                        <span class="tw_user">@kirarin_39</span><br>
                         左は昨日作った多肉の森(*´ ˘ &#x60;ㅅ)<br>右は寄せ植え向きじゃないから同居(笑)<br><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__excerpt">
                         <b><u>@ma_lala_0926</u></b><br>
-                        可愛い同居もなんかいい雰囲気ですね<hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
+                        <span class="yy_marker">可愛い同居もなんかいい雰囲気ですね</span><hr style="height: 10px; border: 1; box-shadow: inset 0 9px 9px -3px rgba(11, 99, 184, 0.8); -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;">
                         </div>
                         <div class="entry__meta">
                         </div>
